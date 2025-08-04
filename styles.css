@@ -5,7 +5,6 @@
   box-sizing: border-box;
 }
 
-/* Contenedor principal */
 body {
   font-family: "Segoe UI", sans-serif;
   background: linear-gradient(to right, #f5f7fa, #c3cfe2);
@@ -25,13 +24,11 @@ body {
   text-align: center;
 }
 
-/* Título */
 h1 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Buscador */
 .buscador {
   display: flex;
   gap: 10px;
@@ -59,7 +56,6 @@ h1 {
   background-color: #45a049;
 }
 
-/* Tarjeta Pokémon */
 .tarjeta {
   display: none;
   border-top: 2px solid #eee;
@@ -85,7 +81,6 @@ h1 {
   background-color: #e91e63;
 }
 
-/* Favoritos */
 .favoritos {
   margin-top: 30px;
   text-align: left;
