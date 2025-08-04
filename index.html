@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Buscador de Pokémon</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>🔍 Buscador de Pokémon</h1>
+
+      <!-- Buscador -->
+      <div class="buscador">
+        <input
+          type="text"
+          id="pokemonInput"
+          placeholder="Ej: pikachu o charmander"
+        />
+        <button id="buscarBtn">Buscar</button>
+      </div>
+
+      <!-- Tarjeta del Pokémon -->
+      <div id="tarjeta" class="tarjeta">
+        <h2 id="nombrePokemon"></h2>
+        <img id="imagenPokemon" alt="Imagen del Pokémon" />
+        <button id="favoritoBtn" class="btn-favorito">
+          ❤️ Agregar a Favoritos
+        </button>
+      </div>
+
+      <!-- Favoritos -->
+      <div class="favoritos">
+        <h3>⭐ Tus Favoritos:</h3>
+        <ul id="listaFavoritos"></ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
